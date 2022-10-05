@@ -1,0 +1,857 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+ol {
+    padding-left: 19px;
+}
+
+ul>li {
+    list-style: none;
+}
+
+li {
+    max-height: 38px;
+    padding-left: 19px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+.all-content {
+    flex-grow: 1;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-top: 64px;
+}
+
+.contacts__heading {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.mini__heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    padding-top: 40px;
+}
+
+.button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.top {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+/* Шапка */
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px;
+}
+
+.top__heading+.text {
+    max-width: 425px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    padding-top: 32px;
+    margin-left: 1px;
+}
+
+.top__heading {
+    font-size: 64px;
+    max-width: 504px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+
+}
+
+.top__button {
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 50px;
+    display: inline-block;
+    margin-top: 71px;
+    max-width: 220px;
+}
+
+.top-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top__info {
+    background-image: url(img/illustration.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    flex-grow: 1;
+    padding-top: 115px;
+    background-size: 44%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Для страницы контактов */
+.contacts__header {
+    background-image: url(img/contact-haeader.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 54px;
+}
+
+.contacts__heading {
+    padding-top: 51px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.text-in-header {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 16px;
+    padding-bottom: 49px;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Основная часть */
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+
+.card {
+    max-width: 359px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 44px 44px 44px 32px;
+    margin-left: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-self: unset;
+    min-height: 480px;
+}
+
+.first-card {
+    margin-left: 0px;
+}
+
+.img-card {
+    align-self: center;
+}
+
+.card-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    padding-top: 28px;
+}
+
+.first-m-h {
+    padding-top: 51.38px;
+}
+
+.card>.text {
+    padding-top: 15px;
+}
+
+.sec-m-h {
+    padding-top: 44.71px;
+}
+
+
+.third-m-h {
+    padding-top: 48.81px;
+    letter-spacing: 0.036em;
+}
+
+.container-4-text {
+    display: flex;
+    flex-flow: column;
+}
+
+.auxiliary-text {
+    padding-top: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    max-width: 750px;
+    align-self: center;
+}
+
+.pictures {
+    margin-top: 64px;
+    position: relative;
+}
+
+.pctr {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pctr-1-text {
+    top: 64px;
+    right: 64px;
+}
+
+.pctr-1-text,
+.pctr-2-text {
+    position: absolute;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.pctr-2-text {
+    top: 32px;
+    left: 32px;
+    font-size: 28px;
+}
+
+.pictures-2 {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-pctr {
+    position: relative;
+}
+
+/* Для страницы контактов */
+
+.container-main-contacts {
+    max-width: 940px;
+}
+
+.column {
+    display: flex;
+    padding-top: 57px;
+    padding-bottom: 96px;
+    justify-content: center;
+}
+
+.main_content {
+    flex-grow: 1;
+    max-width: 540px;
+}
+
+.illustration-4-contacts {
+    max-width: 300px;
+    padding-bottom: 16px;
+    padding-top: 78px;
+}
+
+.text-main-contacts {
+    max-width: 300px;
+    padding-top: 24px;
+}
+
+.mini__heading+ul {
+    padding-top: 4px;
+}
+
+.li-main-contacts {
+    position: relative;
+    padding-top: 16px;
+    padding-left: 0;
+}
+
+.icon-marker {
+    position: absolute;
+    max-width: 24px;
+}
+
+.text-in-contacnts-main {
+    padding-left: 40px;
+    display: inline;
+}
+
+.form {
+    flex-grow: 1;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    max-width: 540px;
+}
+
+.container-main-form {
+    max-width: 540px;
+    padding: 56px;
+}
+
+.container-main-form>.mini__heading {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.text-in-form {
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    opacity: 0.8;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.inputwords {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    width: 100%;
+}
+
+.inputwords-mini {
+    height: 72px;
+    font-size: 16px;
+    padding-left: 42px;
+}
+
+.inputwords-maxi {
+    height: 144px;
+    font-size: 16px;
+    padding-left: 42px;
+    padding-top: 21px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.4;
+    font-family: sans-serif;
+}
+
+.button__form {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    width: 100%;
+    border: #5A98D0;
+    margin-top: 72px;
+}
+
+.map-box {
+    width: 100%;
+}
+
+
+/* Футер */
+.footer {
+    margin-top: 112px;
+    width: 100%;
+    background: #316099;
+}
+
+.footer__text>.heading {
+    max-width: 340px;
+    padding-top: 91px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.text-in-footer-top {
+    max-width: 495px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-top: 32px;
+    padding-bottom: 96px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__button {
+    text-decoration: none;
+    background: #5A98D0;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    height: 26px;
+    padding: 15px 80px;
+    align-self: center;
+    height: 100%;
+    font-size: 16px;
+}
+
+.fotter__info {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 64px;
+}
+
+.text-in-f-i {
+    max-width: 250px;
+}
+
+.footer__copy {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.text-in-footer {
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+
+
+/* Медиа-запрос под планшет
+Макс ширина исходит из ширины контейнера в версии для пк + отступы
+Иначе если попасть на переходный размер (от 1206 до 1024) пропадают отступы*/
+@media(max-width: 1206px) {
+    .container {
+        padding-left: 34px;
+        padding-right: 32px;
+    }
+
+    .header {
+        padding-top: 42px;
+    }
+
+    .top {
+        margin-top: 19px;
+    }
+
+    .card-box {
+        flex-flow: column;
+    }
+
+    .card {
+        align-self: center;
+        margin-left: 0;
+        margin-bottom: 32px;
+        max-width: 335px;
+        min-height: 448px;
+    }
+
+    .card-link {
+        padding-top: 24px;
+    }
+
+    .container-4-text {
+        padding-top: 31px;
+    }
+
+    .auxiliary-text {
+        max-width: 520px;
+    }
+
+    .box-pctr-first {
+        margin-right: 32px;
+    }
+
+    .pctr-2-text {
+        top: 19px;
+        left: 19px;
+    }
+
+    .footer {
+        margin-top: 109px;
+    }
+
+    .footer__top {
+        padding-left: 90px;
+        padding-right: 91px;
+    }
+
+    .text-in-footer-top {
+        max-width: 336px;
+    }
+
+    .fotter__info {
+        flex-flow: column;
+        padding-left: 109px;
+        padding-right: 91px;
+    }
+
+    ol {
+        padding-left: 0;
+    }
+
+    .footer__button {
+        padding: 10px 30px 10px 30px;
+        max-width: 133px;
+        margin-left: 51px;
+    }
+
+    .text-in-footer-top {
+        padding-bottom: 64px;
+    }
+
+    .text-in-f-i {
+        margin-bottom: 25px;
+        max-width: 800px;
+    }
+
+    .footer__copy {
+        padding-left: 90px;
+        padding-right: 91px;
+        padding-top: 40px;
+    }
+
+    /* Для страницы контакты */
+    .column {
+        flex-flow: column;
+        padding-bottom: 64px;
+    }
+
+    .main_content {
+        max-width: 520px;
+        margin-left: 51px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form {
+        max-width: 520px;
+        margin-top: 64px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .illustration-4-contacts {
+        padding-top: 7px;
+    }
+
+    .container-main-form {
+        padding: 54px;
+    }
+}
+
+
+/* Медиа-запрос для картинки в шапке. Относительно прошлого запроса по ширине, 
+картинка выглядит не на месте в сравнении с макето */
+@media(max-width: 1024px) {
+    .top__info {
+        padding-top: 120px;
+        background-position: right 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 17px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .top {
+        margin-top: 0;
+        height: 100%;
+    }
+
+    .header {
+        padding-top: 21px;
+    }
+
+    .top__info {
+        padding-top: 36px;
+        background-image: none;
+    }
+
+    .top__heading {
+        text-align: center;
+        font-size: 32px;
+        line-height: 38px;
+        max-width: 323px;
+    }
+
+    .top__heading+.text {
+        padding-top: 12px;
+        max-width: 343px;
+    }
+
+    .top__button {
+        margin-top: 32px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .top__heading,
+    .top__heading+.text,
+    .top__button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 48px;
+    }
+
+    .card-box {
+        padding-top: 32px;
+        margin-left: 19px;
+        margin-right: 19px;
+        margin-bottom: 19px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .card {
+        padding-bottom: 22px;
+        min-height: 500px;
+        position: relative;
+    }
+
+    .card>.text {
+        text-align: left;
+        padding-top: 13px;
+        padding-bottom: 54px;
+    }
+
+    .card-link {
+        position: absolute;
+        bottom: 21px;
+    }
+
+    .card+.card+.card {
+        margin-bottom: 0;
+    }
+
+    .container-4-text {
+        padding-top: 0;
+    }
+
+    .auxiliary-text {
+        max-width: 343px;
+    }
+
+    .pictures-2 {
+        flex-flow: column;
+        justify-content: auto;
+    }
+
+    .box-pctr-first {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .pctr {
+        border-radius: 10px;
+    }
+
+    .pctr-1-text,
+    .pctr-2-text {
+        font-size: 24px;
+        line-height: 23px;
+        letter-spacing: 0.025em;
+    }
+
+    .footer__top {
+        padding-left: 0;
+        padding-right: 0;
+        flex-flow: column;
+    }
+
+    .footer__text>.heading {
+        max-width: 340px;
+        padding-top: 18px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-in-footer-top {
+        padding-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer__button {
+        padding: 5px 15px 5px 15px;
+        max-width: 108px;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .fotter__info {
+        padding-top: 32px;
+        max-width: 336px;
+        padding-left: 54.5px;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer__copy {
+        padding-top: 7px;
+        padding-bottom: 32px;
+    }
+
+    /* Для страницы контакты */
+    .contacts__heading {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 48px;
+
+    }
+
+    .text-in-header {
+        max-width: 341px;
+        font-size: 16px;
+        padding-top: 32px;
+        padding-bottom: 61px;
+    }
+
+    .column {
+        padding-top: 39px;
+        padding-bottom: 32px;
+    }
+
+    .form {
+        margin-top: 32px;
+    }
+
+    .container-main-form {
+        padding: 35px;
+    }
+
+    .text-in-form {
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .inputwords-mini {
+        height: 46px;
+    }
+
+    .inputwords-maxi {
+        height: 92px;
+    }
+
+    .container-main-form>.mini__heading {
+        font-size: 16px;
+    }
+
+    .button__form {
+        margin-top: 46px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .footer {
+        margin-top: 32px;
+    }
+}
+
+/* Медиа-запрос для текста на картинке в основной части страницы. 
+        Относительно прошлого запроса по ширине, текст слишком маленький относительно макета */
+@media(max-width: 667px) {
+
+    .pctr-1-text,
+    .pctr-2-text {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0em;
+    }
+
+    .pctr-1-text {
+        top: 16px;
+        right: 16px;
+    }
+
+    .pctr-2-text {
+        top: 26px;
+        left: 16px;
+    }
+}
